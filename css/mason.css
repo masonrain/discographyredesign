@@ -1,0 +1,207 @@
+/* color  
+   black #131314
+   light grey #B0B0B0
+   red #cc0000
+   background: #E8E8E8;
+   light grey */
+
+
+/*logo*/
+.logo {
+  font-family: 'Hind', sans-serif;
+  font-size: 50px;
+  padding-top: 10px;
+   
+}
+/* navgaition */
+.navbar {
+    background: #E72E25;
+    font-family: 'Hind', sans-serif;
+    
+ 
+   }
+
+p { padding: 20px;
+    margin: 50px;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    background-color: #FFC900;
+
+   
+}
+
+
+/*links*/
+a:hover {
+    color:  #FFC900;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    transform: scale(1.2); 
+}
+
+nav a {
+margin: 0 3em 0 0;
+color: #000000;
+font-size: 20px;
+}
+
+/*core*/
+body {
+   font-family: Times New Romen, Times, Helvetica, sans-serif;
+   font-size: 1.2em; 
+   line-height: 1.5em;
+   margin: 0;
+   background-color: ;
+  
+}
+
+h1 {
+
+   margin-right: 3em;
+   display: block; 
+       
+}
+
+h2 {
+  font-family: 'Hind', sans-serif;
+  padding-top: 40px;
+  margin-bottom: 50px; 
+  text-align: center;
+  font-weight: bold;
+  text-decoration-color: black;
+  font-size: 50px;
+  border-radius: 20px;
+  
+}
+
+h3 {
+  font-family: 'Hind', sans-serif;
+  text-align: center; 
+  font-size: 25px;
+  background: #E72E25;
+  border-radius: 20px;
+  margin: 20px;
+  
+}
+
+h4 {
+font-family: 'Hind', sans-serif;
+padding: 10px 10px 4px 3em; 
+background: #E72E25;
+border-radius: 20px; 
+
+}
+
+i {
+  padding-left: 20px;
+  
+}
+
+/* members */
+
+
+.members img {
+    border-radius: 50%;
+    padding-bottom: 20px;
+    background-color: #000000;
+
+  
+}
+.members p {
+
+}
+.vip {
+    margin-top: 5em;
+}
+/* albums*/
+.album  {
+     padding-top: 20px;
+  color: #000000;
+    
+}
+.album img {
+    padding-bottom: 40px;
+    margin: auto;    
+
+}
+
+.img-fluid {
+text-align: center;
+width: 100%;
+
+
+}
+
+.text-center {
+
+}
+/* news */
+.box {
+    display: block;
+    padding: 3em 0 0 1em;
+    background-color: ;
+    margin: 3em 9em 2em 9em;
+    border: 10px solid black;
+    border-radius: 20px;
+
+ }
+
+ .box label {
+  text-align: center;
+ }
+
+.btn {
+    width: 10em;
+    text-align: center;
+    margin: auto 0;
+    background-color: #E72E25;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+/* footer */
+
+
+
+
+@media screen and (max-width: 600px) {
+    .members img {
+        padding-left: 2em;
+    }
+    
+    .members p {
+        padding-left: 2em;
+    }
+    
+    h3 {
+      margin-left: 20px;  
+    } 
+     
+     .box {
+       margin-left: 2em;
+       width: 80%;
+    }
+    .btn {
+        width: 5em;
+        font-size: 1.5em;
+        padding-bottom: 10px;
+          text-align: center;
+    }
+
+   
+}
+
+@media screen and (max-width: 500px) {
+    .members img {
+        padding-left: 1em;
+    }
+     .members p {
+        padding-left: 1em;
+    }
+     h3 {
+      margin-left: 10px;  
+    } 
+    
+}
